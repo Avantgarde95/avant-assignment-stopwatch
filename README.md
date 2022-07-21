@@ -1,5 +1,11 @@
 # 2022 React Web Application Assignment
 
+## My implementation
+
+![Result](Result.gif)
+
+-----
+
 Welcome to this web-app assignment repository!
 
 Note that if you have not already, it is highly suggested you complete [this learning path](https://docs.microsoft.com/en-us/learn/paths/react/) before attempting this assignment.
