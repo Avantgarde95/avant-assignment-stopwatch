@@ -1,10 +1,18 @@
-# 2022 React Web Application Assignment
+### What I did
 
-My implementation
+- Set the name
+- Validate the name
+- Start / pause / reset the stopwatch
+
+(UI code was already provided so I didn't touch it)
+
+### Screenshots
 
 ![Result](Result.gif)
 
 -----
+
+# 2022 React Web Application Assignment
 
 Welcome to this web-app assignment repository!
 
