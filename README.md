@@ -1,6 +1,6 @@
 # 2022 React Web Application Assignment
 
-## My implementation
+My implementation
 
 ![Result](Result.gif)
 
