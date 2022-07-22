@@ -6,7 +6,7 @@
 
 (UI code was already provided so I didn't touch it)
 
-### Screenshots
+### Results
 
 ![Result](Result.gif)
 
