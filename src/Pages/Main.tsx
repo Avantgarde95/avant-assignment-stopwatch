@@ -29,11 +29,11 @@ function WelcomeSection() {
   const minNameSize = 1;
   const maxNameSize = 32;
 
-  function handleNameChange(event: ChangeEvent<HTMLTextAreaElement>) {
+  const handleNameChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setNameInput(event.target.value);
   }
 
-  function handleClickSetName() {
+  const handleClickSetName = () => {
     if (nameInput.length >= minNameSize && nameInput.length <= maxNameSize) {
       setName(nameInput);
       setNameInput("");
@@ -82,7 +82,7 @@ function TimerSection() {
     }
   }, [state]);
 
-  function handleClickStart() {
+  const handleClickStart = () => {
     if (state === "Run") {
       setState("Pause");
     } else if (state === "Pause") {
@@ -94,7 +94,7 @@ function TimerSection() {
     }
   }
 
-  function handleClickReset() {
+  const handleClickReset = () => {
     setState("Stop");
     setTimeDiff(0);
   }
